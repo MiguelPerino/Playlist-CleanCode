@@ -312,7 +312,7 @@ Contribuições são bem-vindas! Este é um projeto educacional, então sinta-se
 **Miguel Perino**
 
 - GitHub: [@MiguelPerino](https://github.com/MiguelPerino)
-- LinkedIn: [Seu LinkedIn](https://www.linkedin.com/in/miguel-perino/)
+- LinkedIn: [[@MiguelPerino](https://www.linkedin.com/in/miguel-perino/)]
 - Email: [miguelcperino@gmail.com]
 
 ---
