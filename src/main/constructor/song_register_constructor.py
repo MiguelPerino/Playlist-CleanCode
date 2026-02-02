@@ -1,9 +1,6 @@
-from src.models.repositories.musics_repositories import MusicsRepository
+from src.main.global_repositories import music_repository  # ← IMPORTA DO CENTRALIZADOR
 from src.controllers.song_register_controller import SongRegisterController
 from src.view.song_register_view import SongRegisterView
-
-# Repositório global de músicas (compartilhado com playlist)
-music_repository = MusicsRepository()
 
 def song_register_process():
     # Instancia componentes com injeção de dependência

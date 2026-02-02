@@ -1,13 +1,8 @@
-from src.models.repositories.playlist_repositories import PlaylistRepository
-from src.models.repositories.musics_repositories import MusicsRepository
+from src.main.global_repositories import music_repository, playlist_repository  # ← IMPORTA DO CENTRALIZADOR
 from src.controllers.playlist_controller import PlaylistController
 from src.view.playlist_register_view import PlaylistRegisterView
 from src.view.playlist_add_song_view import PlaylistAddSongView
 from src.view.playlist_list_view import PlaylistListView
-
-# Repositories globais (simulando banco de dados)
-playlist_repository = PlaylistRepository()
-music_repository = MusicsRepository()
 
 def create_playlist_process():
     # Instancia componentes
