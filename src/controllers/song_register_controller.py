@@ -1,4 +1,10 @@
+from src.models.entities.music import Music
+from src.models.repositories.musics_repositories import MusicsRepository
+
 class SongRegisterController:
+    def __init__(self, music_repo: MusicsRepository):
+        self.__music_repo = music_repo
+
     def insert(self, new_song_informations: dict) -> dict:
         #Princípio da responsabilidade única
         try:
@@ -20,12 +26,19 @@ class SongRegisterController:
 
 
     def __verify_if_song_already_registered(self, new_song_informations: dict) -> None:
-        #Interação Com Models/DB
-        pass
+        existing_song = self.__music_repo.find_music(new_song_informations['title'])
+        
+        if existing_song:
+            raise Exception(f'A música "{new_song_informations["title"]}" já está cadastrada!')
 
     def __insert_song(self, new_song_informations: dict) -> None:
-        #Interação Com Models/DB
-        pass
+        new_music = Music(
+            title=new_song_informations['title'],
+            artist=new_song_informations['artist'],
+            year=int(new_song_informations['year'])
+        )
+        
+        self.__music_repo.insert_music(new_music)
 
     def __format_response(self, new_song_informations: dict) -> dict:
         return {
