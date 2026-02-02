@@ -312,8 +312,8 @@ Contribuições são bem-vindas! Este é um projeto educacional, então sinta-se
 **Miguel Perino**
 
 - GitHub: [@MiguelPerino](https://github.com/MiguelPerino)
-- LinkedIn: [Seu LinkedIn]
-- Email: [Seu Email]
+- LinkedIn: [[Seu LinkedIn](https://www.linkedin.com/in/miguel-perino/)]
+- Email: [miguelcperino@gmail.com]
 
 ---
 
@@ -335,6 +335,6 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 **⭐ Se este projeto te ajudou de alguma forma, considere dar uma estrela! ⭐**
 
-Made with ❤️ and Clean Code principles
+
 
 </div>
