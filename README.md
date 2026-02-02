@@ -315,13 +315,6 @@ Contribuições são bem-vindas! Este é um projeto educacional, então sinta-se
 - LinkedIn: [[@MiguelPerino](https://www.linkedin.com/in/miguel-perino/)]
 - Email: [miguelcperino@gmail.com]
 
----
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
 
 ## 🙏 Agradecimentos
 
