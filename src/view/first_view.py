@@ -1,10 +1,17 @@
 def introduction_page() -> str:
     message = '''
-        Sistema musical
-
-    * Cadastrar música - 1
-    * Criar Playlist - 2
-    * Sair - 5
+    🎵 Sistema Musical
+    
+    === MÚSICAS ===
+    1 - Cadastrar música
+    
+    === PLAYLISTS ===
+    2 - Criar playlist
+    3 - Adicionar música à playlist
+    4 - Listar playlists
+    
+    === SISTEMA ===
+    0 - Sair
     '''
 
     print(message)
